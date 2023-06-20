@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Main{
      public static void main(String [] args) {
-          Scanner pidor=new Scanner(System.in);
+          Scanner p=new Scanner(System.in);
           System.out.println();
- int a =pidor.nextInt();
+ int a =p.nextInt();
 System.out.println();
-int b=pidor.nextInt();
+int b=p.nextInt();
 System.out.println("Сложение");
 System.out.println( a+b );
 System.out.println("Вычитание");
